@@ -1,5 +1,4 @@
-wait(25)
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maverick0780/mm2gui/tree/eggs/mm2GuiHandler.Lua", true))()
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maverick0780/mm2scripts/main/mm2GuiHandler.Lua", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 function ghost()
 _G.truetoggle = false
