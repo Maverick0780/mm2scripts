@@ -1,4 +1,4 @@
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maverick0780/mm2scripts/main/mm2GuiHandler.Lua", true))()
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maverick0780/mm2scripts/main/mm2GuiHandler.lua", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 	wait(25)
 function ghost()
