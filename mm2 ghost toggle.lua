@@ -1,5 +1,6 @@
 local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maverick0780/mm2scripts/main/mm2GuiHandler.Lua", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+	wait(25)
 function ghost()
 _G.truetoggle = false
 		toggle = false
