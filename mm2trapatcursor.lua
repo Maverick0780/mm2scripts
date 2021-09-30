@@ -1,5 +1,6 @@
 local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maverick0780/mm2scripts/main/mm2GuiHandler.Lua", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+    wait(25)
 if game.PlaceId == 142823291 then
 local plr = game.Players.LocalPlayer
 local mouse = plr:GetMouse()
